@@ -104,3 +104,9 @@ Cross-platform project lead for web and mobile; Google Vision algorithms, satell
 
 **Jackson Fine Art — Swift**  
 “View in Space” room visualization: artwork placement, framing options, wall color customization, and saved room curation. App Store.
+
+---
+
+## Education
+
+**B.Tech, Computer Science & Engineering** — RKGIT, Ghaziabad · 2011–2015
