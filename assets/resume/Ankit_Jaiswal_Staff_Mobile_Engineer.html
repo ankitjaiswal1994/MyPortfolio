@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Ankit Jaiswal — Staff Mobile Engineer</title>
+  <style>
+    @page { margin: 0.55in; size: letter; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.35;
+      color: #111;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.45in;
+    }
+    h1 { font-size: 22pt; margin: 0 0 4px; }
+    .subtitle { font-size: 11pt; color: #333; margin: 0 0 8px; font-weight: 600; }
+    .contact { font-size: 9.5pt; margin-bottom: 14px; }
+    .contact a { color: #0b57d0; text-decoration: none; }
+    h2 {
+      font-size: 11pt;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 3px;
+      margin: 14px 0 8px;
+    }
+    h3 { font-size: 10.5pt; margin: 10px 0 2px; }
+    .meta { font-size: 9.5pt; color: #444; margin-bottom: 6px; }
+    p { margin: 0 0 6px; }
+    ul { margin: 4px 0 8px 18px; padding: 0; }
+    li { margin-bottom: 3px; }
+    .cluster { margin-bottom: 6px; }
+    .cluster strong { display: inline-block; min-width: 170px; }
+    blockquote {
+      margin: 6px 0 8px;
+      padding: 6px 10px;
+      border-left: 3px solid #666;
+      background: #f7f7f7;
+      font-size: 9.5pt;
+    }
+    .subsection { font-weight: 700; margin: 8px 0 4px; font-size: 10pt; }
+    .project { margin-bottom: 8px; }
+    .project strong { display: block; }
+  </style>
+</head>
+<body>
+  <h1>Ankit Jaiswal</h1>
+  <p class="subtitle">Staff Mobile Engineer | React Native &amp; iOS Platform Architecture</p>
+  <p class="contact">
+    +91-8700813145 | ankitjaiswal.cs@gmail.com |
+    <a href="https://ankitjaiswal1994.github.io/MyPortfolio/">Portfolio</a> |
+    <a href="https://github.com/ankitjaiswal1994/">GitHub</a> |
+    <a href="https://www.linkedin.com/in/ankit-jaiswal-32939782/">LinkedIn</a> |
+    <a href="https://stackoverflow.com/users/6441840/ankitjaiswal">Stack Overflow</a>
+  </p>
+
+  <h2>Professional Summary</h2>
+  <p>
+    Staff-level mobile platform engineer with 10 years of experience spanning native iOS and enterprise React Native architecture.
+    Primary architect of Punchh’s white-label mobile platform — loyalty SDK, online ordering module, master app shell, and monorepo ecosystem serving an enterprise multi-brand fleet.
+    Built provisioning and release infrastructure including App Center server, self-hosted CodePush OTA, and end-to-end Fastlane pipelines.
+    Drove fleet-wide framework upgrades through automated merge tooling and established MobileWright E2E automation to replace Appium across the platform.
+  </p>
+
+  <h2>Core Competencies</h2>
+  <p class="cluster"><strong>Platform Architecture:</strong> White-label React Native architecture; monorepo; modular SDK design (RNPC, OLO, menu, payments); TurboModules/codegen; Redux and React Navigation; theme/GRP multi-tenancy; deep linking; GraphQL/REST</p>
+  <p class="cluster"><strong>Release Engineering &amp; CI/CD:</strong> Fastlane; App Store Connect API keys; Firebase App Distribution; CodePush OTA; Bitrise; GitHub Actions; GitHub Packages; certificate and keystore management</p>
+  <p class="cluster"><strong>Backend &amp; Tooling:</strong> Go (App Center, CodePush); Python/FastAPI (upgrade helper); Docker; MySQL; Redis; GitHub webhooks and PR automation</p>
+  <p class="cluster"><strong>Quality &amp; Native:</strong> MobileWright/Playwright E2E; Page Object Model; shared testID contract; Swift; Objective-C; native bridges; Storybook; Sentry; Bluetooth and payment terminals</p>
+
+  <h2>Experience</h2>
+  <h3>Punchh Inc. (PAR Technology) — Staff Engineer</h3>
+  <p class="meta">Dec 2021 – Present | iOS &amp; React Native Platform</p>
+  <p>Architect and primary owner of Punchh’s white-label mobile platform, release infrastructure, and fleet maintenance tooling.</p>
+
+  <p class="subsection">Platform Architecture</p>
+  <ul>
+    <li>Architected white-label React Native platform spanning loyalty SDK, OLO ordering, and master app shell via punchh-platform-ecosystem monorepo.</li>
+    <li>Designed modular boot/theming, dual API client strategy (legacy /api/mobile and GIS /api2), and navigation composition for optional modules per brand.</li>
+    <li>Led major framework migrations (RN 0.73→0.85, React 19, React Navigation 7, Redux 5, CodePush-next) with documented migration paths.</li>
+    <li>Reduced bundle size and improved runtime performance of the pickup and OLO ordering framework.</li>
+  </ul>
+
+  <p class="subsection">Provisioning &amp; Fleet Operations</p>
+  <ul>
+    <li>Built App Center Server (Go): automated provisioning, template cloning, Fastlane spec generation, GitHub setup, Bitrise hooks, worker queue architecture.</li>
+    <li>Built Mobile Framework Upgrade Helper (Python/FastAPI): clone → diff → merge → PR pipeline with conflict-resolution dashboard.</li>
+    <li>Deployed CodePush Server (Go) for self-hosted OTA updates integrated with Fastlane release lanes.</li>
+  </ul>
+
+  <p class="subsection">Release Engineering &amp; CI/CD</p>
+  <blockquote><strong>Mobile Release Pipeline (designed &amp; owned):</strong> Fastlane · App Store Connect API Keys · Firebase App Distribution · CodePush OTA · Bitrise · GitHub Actions · GitHub Packages · Match · TestFlight &amp; Play Store automation</blockquote>
+  <ul>
+    <li>Designed end-to-end release pipeline for iOS (Match, TestFlight, dSYM/Crashlytics) and Android (keystore, Play Store, Firebase App Distribution).</li>
+    <li>Implemented App Store Connect API key authentication for non-interactive CI releases.</li>
+    <li>Integrated CodePush OTA bundle publishing into release lanes alongside store builds.</li>
+    <li>Restored and standardized CI across Bitrise and GitHub Actions; aligned Snyk security scanning into release workflow.</li>
+  </ul>
+
+  <p class="subsection">Quality Engineering</p>
+  <ul>
+    <li>Created react-native-test-automation-suite (MobileWright): Playwright-native E2E replacing Appium; POM, brand-matrix tagging, shared testID contract.</li>
+  </ul>
+
+  <h3>Crownstack Technologies — Team Lead (iOS &amp; React Native)</h3>
+  <p class="meta">Sept 2017 – Dec 2021</p>
+  <ul>
+    <li>Led iOS and React Native delivery; introduced React Native to the organization.</li>
+    <li>Improved project architecture and created shared utility libraries adopted company-wide.</li>
+    <li>Mentored engineers through structured monthly learning sessions.</li>
+    <li>Delivered Sibros monorepo architecture with per-client theming, Bluetooth, and music player modules.</li>
+  </ul>
+
+  <h3>Mobiloitte Technologies — iOS Developer</h3>
+  <p class="meta">Oct 2015 – Sept 2017</p>
+  <ul>
+    <li>Built standalone iOS applications in Objective-C for client engagements.</li>
+    <li>Integrated Bluetooth peripherals and PAX-900 payment terminal hardware.</li>
+  </ul>
+
+  <h2>Selected Earlier Projects</h2>
+  <div class="project"><strong>Sibros — React Native</strong> Monorepo across mobile and web; per-client theming; Bluetooth and music player modules.</div>
+  <div class="project"><strong>Mindhouse — React Native</strong> Architecture revamp with styled-components, Context API, TypeScript; custom graph components.</div>
+  <div class="project"><strong>Buildboard — Swift</strong> Project lead; Google Vision, satellite measurement, ACH/Stripe, push notification navigation.</div>
+  <div class="project"><strong>Jackson Fine Art — Swift</strong> “View in Space” room visualization with framing options and saved room curation.</div>
+
+  <h2>Education</h2>
+  <p><strong>B.Tech in Computer Science &amp; Engineering</strong><br />RKGIT, Ghaziabad | 2011 – 2015</p>
+</body>
+</html>

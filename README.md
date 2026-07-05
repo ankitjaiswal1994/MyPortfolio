@@ -16,6 +16,24 @@ python3 -m http.server 8080
 
 Then visit `http://localhost:8080`.
 
+## Resume
+
+Download the latest PDF from the site header/footer, or directly:
+
+- [Ankit_Jaiswal_Staff_Mobile_Engineer.pdf](assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.pdf)
+- [Markdown source](assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.md)
+
+To regenerate the PDF after editing the markdown:
+
+```bash
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+  --headless --disable-gpu --no-pdf-header-footer \
+  --print-to-pdf=assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.pdf \
+  "file://$(pwd)/assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.html"
+```
+
+Update the HTML resume source first if content changes materially.
+
 ## Deploy
 
 This site is deployed via GitHub Pages from the `main` branch.
