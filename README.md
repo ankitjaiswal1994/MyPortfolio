@@ -48,5 +48,7 @@ Changes typically appear at the live URL within a few minutes.
 
 ## Stack
 
-- Static HTML/CSS (HTML5 UP "Read Only" template)
+- Custom modern portfolio UI (`assets/css/portfolio.css`)
+- Vanilla JS for navigation and scroll animations (`assets/js/portfolio.js`)
+- Font Awesome icons + Google Fonts (Inter, Space Grotesk)
 - GitHub Pages

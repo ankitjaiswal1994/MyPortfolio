@@ -1,388 +1,507 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Ankit Jaiswal | Staff Mobile Engineer</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Staff Mobile Engineer specializing in React Native platform architecture, CI/CD, and enterprise white-label mobile apps."
+      content="Ankit Jaiswal — Staff Mobile Engineer specializing in React Native platform architecture, CI/CD, and enterprise white-label mobile apps."
     />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Ankit Jaiswal | Staff Mobile Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
   </head>
-  <body class="is-preload">
-    <!-- Header -->
-    <section id="header">
-      <header>
-        <span class="image avatar"><img src="images/abc.jpg" alt="Ankit Jaiswal" /></span>
-        <h1 id="logo"><a href="#">Ankit Jaiswal</a></h1>
-        <p>
-          Staff Mobile Engineer<br />
-          React Native &amp; iOS Platform Architecture<br />
-          Punchh Inc. (PAR Technology)
-        </p>
-        <p>
-          <a href="assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.pdf" class="button primary small icon solid fa-download" download>
-            Download Resume (PDF)
+  <body>
+    <header class="site-nav">
+      <div class="container nav-inner">
+        <a class="brand" href="#top">
+          <img class="brand-avatar" src="images/abc.jpg" alt="Ankit Jaiswal" />
+          <span class="brand-copy">
+            <strong>Ankit Jaiswal</strong>
+            <span>Staff Mobile Engineer</span>
+          </span>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#about" class="active">About</a>
+          <a href="#expertise">Expertise</a>
+          <a href="#platform">Platform</a>
+          <a href="#projects">Projects</a>
+          <a href="#contributions">Contributions</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="btn btn-secondary" href="mailto:ankitjaiswal.cs@gmail.com">Contact</a>
+          <a
+            class="btn btn-primary"
+            href="assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.pdf"
+            download
+          >
+            <i class="fas fa-download" aria-hidden="true"></i>
+            Resume
           </a>
-        </p>
-      </header>
-      <nav id="nav">
-        <ul>
-          <li><a href="#one" class="active">About</a></li>
-          <li><a href="#two">Expertise</a></li>
-          <li><a href="#three">Platform</a></li>
-          <li><a href="#four">Projects</a></li>
-          <li><a href="#five">Contributions</a></li>
-        </ul>
-      </nav>
-      <footer>
-        <ul class="icons">
-          <li>
-            <a href="https://twitter.com/ankitajju" target="_blank" class="icon brands fa-twitter"
-              ><span class="label">Twitter</span></a
-            >
-          </li>
-          <li>
-            <a href="https://stackoverflow.com/users/6441840/ankitjaiswal" target="_blank" class="icon brands fa-stack-overflow"
-              ><span class="label">Stackoverflow</span></a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/ankitjaiswal1994/" target="_blank" class="icon brands fa-github"
-              ><span class="label">Github</span></a
-            >
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/ankit-jaiswal-32939782/" target="_blank" class="icon brands fa-linkedin"
-              ><span class="label">Linkedin</span></a
-            >
-          </li>
-          <li>
-            <a href="assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.pdf" class="icon solid fa-file-pdf" download
-              ><span class="label">Resume PDF</span></a
-            >
-          </li>
-          <li>
-            <a href="mailto:ankitjaiswal.cs@gmail.com" class="icon solid fa-envelope"
-              ><span class="label">Email</span></a
-            >
-          </li>
-        </ul>
-      </footer>
-    </section>
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Main -->
-      <div id="main">
-        <!-- One -->
-        <section id="one">
-          <div class="image main" data-position="center">
-            <img src="images/home.jpg" alt="" />
-          </div>
-          <div class="container">
-            <header class="major">
-              <h2>Professional Summary</h2>
-              <p>
-                Staff-level mobile platform engineer with 10 years of experience spanning native iOS and enterprise React Native architecture.
-                Primary architect of Punchh&rsquo;s white-label mobile platform &mdash; loyalty SDK, online ordering module, master app shell, and monorepo ecosystem serving an enterprise multi-brand fleet.
-                Built provisioning and release infrastructure including App Center server, self-hosted CodePush OTA, and end-to-end Fastlane pipelines.
-              </p>
-              <ul class="actions">
-                <li>
-                  <a href="assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.pdf" class="button primary icon solid fa-download" download>
-                    Download Resume (PDF)
-                  </a>
-                </li>
-              </ul>
-            </header>
-
-            <h4>Core Competencies</h4>
-
-            <h5>Platform Architecture</h5>
-            <p>
-              White-label React Native architecture; monorepo (punchh-platform-ecosystem); modular SDK design (RNPC, OLO, menu, payments);
-              TurboModules/codegen; Redux and React Navigation patterns; theme/GRP multi-tenancy; deep linking; GraphQL/REST integration.
-            </p>
-
-            <h5>Release Engineering &amp; CI/CD</h5>
-            <p>
-              Fastlane (Match, TestFlight, Play Store, dSYM/Crashlytics upload); App Store Connect API keys; Firebase App Distribution;
-              CodePush OTA (self-hosted Go server); Bitrise; GitHub Actions; GitHub Packages; certificate and keystore management.
-            </p>
-
-            <h5>Backend &amp; Tooling</h5>
-            <p>
-              Go services (App Center provisioning, CodePush server); Python/FastAPI (upgrade helper, MCP server); Docker; MySQL; Redis;
-              GitHub webhooks and PR automation.
-            </p>
-
-            <h5>Quality &amp; Native</h5>
-            <p>
-              MobileWright/Playwright-native E2E; Page Object Model; shared testID contract across packages; Swift; Objective-C; native bridges;
-              Storybook; Sentry; Bluetooth and payment terminal integrations.
-            </p>
-
-            <h4>Experience</h4>
-            <ul>
-              <li><strong>Punchh Inc. (PAR Technology)</strong> &mdash; Staff Engineer &mdash; Dec 2021 &ndash; Present</li>
-              <li><strong>Crownstack Technologies</strong> &mdash; Team Lead (iOS &amp; React Native) &mdash; Sept 2017 &ndash; Dec 2021</li>
-              <li><strong>Mobiloitte Technologies</strong> &mdash; iOS Developer &mdash; Oct 2015 &ndash; Sept 2017</li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- Two -->
-        <section id="two">
-          <div class="container">
-            <h3>Expertise</h3>
-            <ul class="feature-icons">
-              <li class="icon solid fa-sitemap">Mobile platform &amp; SDK architecture</li>
-              <li class="icon solid fa-rocket">Release engineering &amp; CI/CD pipelines</li>
-              <li class="icon solid fa-code">Code review &amp; technical leadership</li>
-              <li class="icon solid fa-cubes">White-label fleet provisioning &amp; upgrades</li>
-              <li class="icon solid fa-book">E2E test automation (MobileWright)</li>
-              <li class="icon solid fa-users">Hiring, mentoring &amp; team growth</li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- Three - Platform Work -->
-        <section id="three">
-          <div class="container">
-            <h3>Platform Work</h3>
-            <p>
-              Architect and primary owner of Punchh&rsquo;s white-label mobile platform, release infrastructure, and fleet maintenance tooling.
-            </p>
-
-            <blockquote>
-              <strong>Mobile Release Pipeline (designed &amp; owned):</strong>
-              Fastlane &middot; App Store Connect API Keys &middot; Firebase App Distribution &middot; CodePush OTA (self-hosted Go server) &middot;
-              Bitrise &middot; GitHub Actions &middot; GitHub Packages &middot; Match/certificate management &middot; TestFlight &amp; Play Store automation
-            </blockquote>
-
-            <div class="features">
-              <article>
-                <div class="inner">
-                  <h4>White-Label Mobile Platform</h4>
-                  <p>
-                    Architected Punchh&rsquo;s React Native platform spanning loyalty SDK (RNPC), online ordering (OLO), and master app shell,
-                    composed via the punchh-platform-ecosystem monorepo. Designed modular boot/theming, dual API client strategy, and navigation
-                    composition for optional modules per brand. Led major framework migrations (RN 0.73&rarr;0.85, React 19, React Navigation 7, Redux 5, CodePush-next).
-                  </p>
-                </div>
-              </article>
-
-              <article>
-                <div class="inner">
-                  <h4>App Center Server</h4>
-                  <p>
-                    Sole architect of Go-based provisioning service: automated white-label app onboarding, template cloning, brand metadata,
-                    Fastlane spec generation, GitHub repository setup, Bitrise build hooks, and worker queue architecture.
-                  </p>
-                </div>
-              </article>
-
-              <article>
-                <div class="inner">
-                  <h4>CodePush Server (Go)</h4>
-                  <p>
-                    Deployed self-hosted OTA update server for the enterprise fleet. Integrated bundle publishing into Fastlane release lanes for iOS and Android;
-                    configured client-side CodePushServerURL for private server distribution.
-                  </p>
-                </div>
-              </article>
-
-              <article>
-                <div class="inner">
-                  <h4>Mobile Framework Upgrade Helper</h4>
-                  <p>
-                    Sole architect of Python/FastAPI tooling: automated clone &rarr; diff &rarr; merge &rarr; PR pipeline with conflict-resolution dashboard
-                    for fleet-wide SDK upgrades across brand app repositories.
-                  </p>
-                </div>
-              </article>
-
-              <article>
-                <div class="inner">
-                  <h4>MobileWright E2E Automation</h4>
-                  <p>
-                    Created react-native-test-automation-suite replacing WebdriverIO/Appium with MobileWright/Playwright-native testing.
-                    Page Object Model, brand-matrix test tagging, and shared testID contract across @punchh packages.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <!-- Four - Client Projects -->
-        <section id="four">
-          <div class="container">
-            <h3>Projects</h3>
-            <p>
-              I&rsquo;ve worked on applications with varying usage and utility.
-              Below-mentioned are a few noteworthy applications/platforms which,
-              to an extent, summarise the work that I&rsquo;ve done so far.
-            </p>
-            <div class="features">
-              <article>
-                <a href="#" class="image">
-                  <iframe height="315" src="https://www.youtube.com/embed/-Mgm5dD63Cc" title="Mindhouse demo"></iframe>
-                </a>
-                <div class="inner">
-                  <h4>MINDHOUSE (React Native)</h4>
-                  <p>
-                    Meditation yoga based application fully on react native.
-                    More than 40k active users includes the app purchase as a
-                    revenue model.
-                  </p>
-                  <h6>ROLE</h6>
-                  <p>
-                    Responsible for introducing new architecture based on styled components, context api and typescript. Revamped almost 70% application and created custom graphs.
-                  </p>
-                  <footer>
-                    <ul class="icons">
-                      <li>
-                        <a href="https://apps.apple.com/in/app/mindhouse/id1484471377" target="_blank" class="icon brands fa-apple"
-                          ><span class="label">Apple mindhouse</span></a
-                        >
-                      </li>
-                      <li>
-                        <a href="https://play.google.com/store/apps/details?id=com.mindhouse&hl=en_IN&gl=US" target="_blank" class="icon brands fa-android"
-                          ><span class="label">Android mindhouse</span></a
-                        >
-                      </li>
-                    </ul>
-                  </footer>
-                </div>
-              </article>
-
-              <article>
-                <a href="#" class="image">
-                  <iframe height="315" src="https://www.youtube.com/embed/7T_W99LQzv0" title="Jackson Fine Art demo"></iframe>
-                </a>
-                <div class="inner">
-                  <h4>JACKSONFINEART (Swift)</h4>
-                  <p>
-                    Jackson Fine Art&rsquo;s &ldquo;View in Your Space&rdquo; allows you to:
-                  </p>
-                  <ul>
-                    <li>Take, upload, or select a room to view artwork from our inventory on the wall.</li>
-                    <li>Add multiple pieces and choose from our different framing options to curate arrangements.</li>
-                    <li>Change wall color behind artwork with options of all shades, hues and brightness.</li>
-                    <li>Save spaces to your account to build on and edit in the future.</li>
-                  </ul>
-                  <h6>ROLE</h6>
-                  <p>Project lead and Responsible for creating room feature.</p>
-                  <footer>
-                    <ul class="icons">
-                      <li>
-                        <a href="https://apps.apple.com/us/app/jackson-fine-art/id1504111539" target="_blank" class="icon brands fa-apple"
-                          ><span class="label">Apple Jacksonfineart</span></a
-                        >
-                      </li>
-                    </ul>
-                  </footer>
-                </div>
-              </article>
-
-              <article>
-                <a href="#" class="image">
-                  <iframe height="315" src="https://www.youtube.com/embed/h0M1v2YF4Zc" title="Sibros demo"></iframe>
-                </a>
-                <div class="inner">
-                  <h4>SIBROS (React Native)</h4>
-                  <p>
-                    Deliver full vehicle software updates with deep data collection and diagnostics from a one integrated platform, built for the future of automotive connectivity and design innovation.
-                  </p>
-                  <h6>ROLE</h6>
-                  <p>
-                    Working on Monorepo via which we share the components across the apps and web platform.
-                    So basically we use same component for different clients(different apps) by just changing the theme.
-                    Significant features bluetooth integration, music player integration, theming, monorepo architecture.
-                  </p>
-                </div>
-              </article>
-
-              <article>
-                <a href="#" class="image">
-                  <iframe height="315" src="https://www.youtube.com/embed/CpTD7tWL548" title="Buildboard demo"></iframe>
-                </a>
-                <div class="inner">
-                  <h4>BUILDBOARD (Swift)</h4>
-                  <p>
-                    Buildboard works hard to simplify the home remodeling experience.
-                  </p>
-                  <h6>ROLE</h6>
-                  <p>
-                    Project lead across platform web and mobile apps. Significant work is google vision algorithm,
-                    satellite measurement, ach and stripe integration, handling various push notification navigations.
-                  </p>
-                  <footer>
-                    <ul class="icons">
-                      <li>
-                        <a href="https://apps.apple.com/us/app/buildboard-app/id1375237483" target="_blank" class="icon brands fa-apple"
-                          ><span class="label">Apple Buildboard</span></a
-                        >
-                      </li>
-                    </ul>
-                  </footer>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <!-- Five -->
-        <section id="five">
-          <div class="container">
-            <h3>Contributions</h3>
-            <p>
-              Few notable tasks and responsibilities performed:
-            </p>
-            <ul>
-              <li>Designed and owned end-to-end mobile release pipeline with Fastlane, App Store Connect API keys, Firebase App Distribution, and CodePush OTA.</li>
-              <li>Built App Center Server for automated white-label app provisioning across an enterprise multi-brand fleet.</li>
-              <li>Created Mobile Framework Upgrade Helper for fleet-wide SDK migrations with automated merge and PR workflows.</li>
-              <li>Established MobileWright E2E automation framework with shared testID contracts across @punchh packages.</li>
-              <li>Designed custom graph with bezier path on scroll view and also added scrolling and zooming functionality for the same.</li>
-              <li>Integrated PAX-900 device from company optomany in Swoopos app for POS system.</li>
-              <li>Worked on OpenCv to calculate measurement of object from the image.</li>
-              <li>Integrated Vision Algorithm to calculate measurement of object on the image.</li>
-              <li>Created a framework for SugarFunctions via COCOAPOD to use in our company for projects.</li>
-              <li>Create an Instabug-like framework for our company to report bugs on pivotal(using pivotal apis).</li>
-              <li>Integrated beacons to detect devices and for automatic check ins in restaurants.</li>
-              <li>
-                Created Open source architecture for react native apps.
-                <a href="https://github.com/ankitjaiswal1994/RNArchitecture" target="_blank">Open Link</a>
-              </li>
-            </ul>
-          </div>
-        </section>
+          <button class="menu-toggle" type="button" aria-label="Open menu">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
+    </header>
 
-      <!-- Footer -->
-      <section id="footer">
-        <div class="container">
-          <ul class="copyright">
-            <li>&copy; 2026 Ankit Jaiswal. All rights reserved.</li>
-          </ul>
+    <nav class="mobile-drawer" aria-label="Mobile">
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#platform">Platform</a>
+      <a href="#projects">Projects</a>
+      <a href="#contributions">Contributions</a>
+      <a href="assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.pdf" download>Download Resume</a>
+    </nav>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Available for Staff / Principal Mobile roles</span>
+            <h1>
+              Building mobile platforms
+              <span>at enterprise scale</span>
+            </h1>
+            <p class="hero-subtitle">
+              Staff Mobile Engineer · React Native &amp; iOS Platform Architecture · Punchh Inc. (PAR Technology)
+            </p>
+            <p class="hero-summary">
+              Staff-level mobile platform engineer with 10 years of experience spanning native iOS and enterprise React Native architecture.
+              Primary architect of Punchh&rsquo;s white-label mobile platform — loyalty SDK, online ordering module, master app shell, and monorepo ecosystem serving an enterprise multi-brand fleet.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.pdf"
+                download
+              >
+                <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                Download Resume
+              </a>
+              <a class="btn btn-secondary" href="#platform">
+                <i class="fas fa-layer-group" aria-hidden="true"></i>
+                View Platform Work
+              </a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-card">
+                <strong>10+ Years</strong>
+                <span>Mobile engineering experience</span>
+              </div>
+              <div class="stat-card">
+                <strong>Staff Engineer</strong>
+                <span>Platform architecture owner</span>
+              </div>
+              <div class="stat-card">
+                <strong>CI/CD + OTA</strong>
+                <span>Fastlane · CodePush · Firebase</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-panel reveal">
+            <div class="profile-card">
+              <img src="images/abc.jpg" alt="Ankit Jaiswal profile photo" />
+              <h2>Ankit Jaiswal</h2>
+              <p>New Delhi · Mobile Platform · Release Engineering</p>
+              <div class="social-row">
+                <a class="icon-link" href="https://github.com/ankitjaiswal1994/" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="https://www.linkedin.com/in/ankit-jaiswal-32939782/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="https://stackoverflow.com/users/6441840/ankitjaiswal" target="_blank" rel="noopener" aria-label="Stack Overflow">
+                  <i class="fab fa-stack-overflow" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="https://twitter.com/ankitajju" target="_blank" rel="noopener" aria-label="Twitter">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a class="icon-link" href="mailto:ankitjaiswal.cs@gmail.com" aria-label="Email">
+                  <i class="fas fa-envelope" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
-    </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow">About</span>
+            <h2 class="section-title">Professional summary &amp; experience</h2>
+            <p class="section-lead">
+              Built provisioning and release infrastructure including App Center server, self-hosted CodePush OTA, and end-to-end Fastlane pipelines.
+              Drove fleet-wide framework upgrades through automated merge tooling and established MobileWright E2E automation to replace Appium across the platform.
+            </p>
+          </div>
+
+          <div class="card-grid two reveal">
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-sitemap" aria-hidden="true"></i></div>
+              <h3>Platform Architecture</h3>
+              <p>
+                White-label React Native architecture; monorepo (punchh-platform-ecosystem); modular SDK design (RNPC, OLO, menu, payments);
+                TurboModules/codegen; Redux and React Navigation patterns; theme/GRP multi-tenancy; deep linking; GraphQL/REST integration.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-rocket" aria-hidden="true"></i></div>
+              <h3>Release Engineering &amp; CI/CD</h3>
+              <p>
+                Fastlane (Match, TestFlight, Play Store, dSYM/Crashlytics upload); App Store Connect API keys; Firebase App Distribution;
+                CodePush OTA (self-hosted Go server); Bitrise; GitHub Actions; GitHub Packages; certificate and keystore management.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-server" aria-hidden="true"></i></div>
+              <h3>Backend &amp; Tooling</h3>
+              <p>
+                Go services (App Center provisioning, CodePush server); Python/FastAPI (upgrade helper, MCP server); Docker; MySQL; Redis;
+                GitHub webhooks and PR automation.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div>
+              <h3>Quality &amp; Native</h3>
+              <p>
+                MobileWright/Playwright-native E2E; Page Object Model; shared testID contract across packages; Swift; Objective-C; native bridges;
+                Storybook; Sentry; Bluetooth and payment terminal integrations.
+              </p>
+            </article>
+          </div>
+
+          <div class="timeline reveal" style="margin-top: 1.25rem">
+            <article class="timeline-item">
+              <div class="timeline-date">Dec 2021 – Present</div>
+              <div>
+                <h3>Staff Engineer</h3>
+                <div class="company">Punchh Inc. (PAR Technology) · iOS &amp; React Native Platform</div>
+                <p>Architect and primary owner of white-label mobile platform, release infrastructure, and fleet maintenance tooling.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-date">Sept 2017 – Dec 2021</div>
+              <div>
+                <h3>Team Lead (iOS &amp; React Native)</h3>
+                <div class="company">Crownstack Technologies</div>
+                <p>Led delivery across client projects, introduced React Native to the organization, and mentored engineers through monthly learning sessions.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-date">Oct 2015 – Sept 2017</div>
+              <div>
+                <h3>iOS Developer</h3>
+                <div class="company">Mobiloitte Technologies</div>
+                <p>Built standalone Objective-C applications, Bluetooth integrations, and PAX-900 payment terminal workflows.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="expertise" class="section" style="padding-top: 0">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow">Expertise</span>
+            <h2 class="section-title">What I bring to platform teams</h2>
+          </div>
+          <div class="card-grid three reveal">
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-layer-group" aria-hidden="true"></i></div>
+              <h3>Mobile platform &amp; SDK architecture</h3>
+              <p>White-label composition, modular SDK design, and multi-brand fleet strategy.</p>
+            </article>
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-code-branch" aria-hidden="true"></i></div>
+              <h3>Release engineering &amp; CI/CD</h3>
+              <p>Fastlane pipelines, ASC API keys, Firebase distribution, and CodePush OTA automation.</p>
+            </article>
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+              <h3>Technical leadership</h3>
+              <p>Architecture reviews, code quality standards, and cross-team platform decisions.</p>
+            </article>
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-cubes" aria-hidden="true"></i></div>
+              <h3>Fleet provisioning &amp; upgrades</h3>
+              <p>App Center automation and upgrade tooling for large downstream app repositories.</p>
+            </article>
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-vial" aria-hidden="true"></i></div>
+              <h3>E2E test automation</h3>
+              <p>MobileWright framework with shared testID contracts across package boundaries.</p>
+            </article>
+            <article class="card">
+              <div class="card-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
+              <h3>Hiring, mentoring &amp; team growth</h3>
+              <p>Structured learning, onboarding, and raising engineering standards across teams.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="platform" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow">Platform Work</span>
+            <h2 class="section-title">Enterprise mobile platform ownership</h2>
+            <p class="section-lead">
+              Architect and primary owner of Punchh&rsquo;s white-label mobile platform, release infrastructure, and fleet maintenance tooling.
+            </p>
+          </div>
+
+          <div class="highlight-banner reveal">
+            <strong>Mobile Release Pipeline (designed &amp; owned)</strong>
+            <p>
+              Fastlane · App Store Connect API Keys · Firebase App Distribution · CodePush OTA (self-hosted Go server) · Bitrise · GitHub Actions · GitHub Packages · Match/certificate management · TestFlight &amp; Play Store automation
+            </p>
+          </div>
+
+          <div class="card-grid two reveal" style="margin-top: 1.25rem">
+            <article class="card">
+              <h3>White-Label Mobile Platform</h3>
+              <p>
+                Architected Punchh&rsquo;s React Native platform spanning loyalty SDK (RNPC), online ordering (OLO), and master app shell,
+                composed via the punchh-platform-ecosystem monorepo. Designed modular boot/theming, dual API client strategy, and navigation
+                composition for optional modules per brand. Led major framework migrations (RN 0.73&rarr;0.85, React 19, React Navigation 7, Redux 5, CodePush-next).
+              </p>
+              <div class="tag-list">
+                <span class="tag">React Native 0.85</span>
+                <span class="tag">Monorepo</span>
+                <span class="tag">RNPC</span>
+                <span class="tag">OLO</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3>App Center Server</h3>
+              <p>
+                Sole architect of Go-based provisioning service: automated white-label app onboarding, template cloning, brand metadata,
+                Fastlane spec generation, GitHub repository setup, Bitrise build hooks, and worker queue architecture.
+              </p>
+              <div class="tag-list">
+                <span class="tag">Go</span>
+                <span class="tag">Vue</span>
+                <span class="tag">Redis</span>
+                <span class="tag">Bitrise</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3>CodePush Server (Go)</h3>
+              <p>
+                Deployed self-hosted OTA update server for the enterprise fleet. Integrated bundle publishing into Fastlane release lanes for iOS and Android;
+                configured client-side CodePushServerURL for private server distribution.
+              </p>
+              <div class="tag-list">
+                <span class="tag">OTA</span>
+                <span class="tag">Fastlane</span>
+                <span class="tag">Self-hosted</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Mobile Framework Upgrade Helper</h3>
+              <p>
+                Sole architect of Python/FastAPI tooling: automated clone &rarr; diff &rarr; merge &rarr; PR pipeline with conflict-resolution dashboard
+                for fleet-wide SDK upgrades across brand app repositories.
+              </p>
+              <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">Docker</span>
+              </div>
+            </article>
+            <article class="card" style="grid-column: 1 / -1">
+              <h3>MobileWright E2E Automation</h3>
+              <p>
+                Created react-native-test-automation-suite replacing WebdriverIO/Appium with MobileWright/Playwright-native testing.
+                Page Object Model, brand-matrix test tagging, and shared testID contract across @punchh packages.
+              </p>
+              <div class="tag-list">
+                <span class="tag">MobileWright</span>
+                <span class="tag">Playwright</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">E2E</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section" style="padding-top: 0">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow">Projects</span>
+            <h2 class="section-title">Selected product work</h2>
+            <p class="section-lead">
+              I&rsquo;ve worked on applications with varying usage and utility. Below-mentioned are a few noteworthy applications/platforms which,
+              to an extent, summarise the work that I&rsquo;ve done so far.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="video-wrap">
+                <iframe src="https://www.youtube.com/embed/-Mgm5dD63Cc" title="Mindhouse demo" loading="lazy" allowfullscreen></iframe>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="badge badge-react">React Native</span>
+                </div>
+                <h3>MINDHOUSE</h3>
+                <p>
+                  Meditation yoga based application fully on react native.
+                  More than 40k active users includes the app purchase as a revenue model.
+                </p>
+                <span class="role-label">Role</span>
+                <p>
+                  Responsible for introducing new architecture based on styled components, context api and typescript. Revamped almost 70% application and created custom graphs.
+                </p>
+                <div class="store-links">
+                  <a href="https://apps.apple.com/in/app/mindhouse/id1484471377" target="_blank" rel="noopener">
+                    <i class="fab fa-apple" aria-hidden="true"></i> App Store
+                  </a>
+                  <a href="https://play.google.com/store/apps/details?id=com.mindhouse&hl=en_IN&gl=US" target="_blank" rel="noopener">
+                    <i class="fab fa-google-play" aria-hidden="true"></i> Play Store
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="video-wrap">
+                <iframe src="https://www.youtube.com/embed/7T_W99LQzv0" title="Jackson Fine Art demo" loading="lazy" allowfullscreen></iframe>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="badge badge-swift">Swift</span>
+                </div>
+                <h3>JACKSONFINEART</h3>
+                <p>Jackson Fine Art&rsquo;s &ldquo;View in Your Space&rdquo; allows you to:</p>
+                <ul>
+                  <li>Take, upload, or select a room to view artwork from our inventory on the wall.</li>
+                  <li>Add multiple pieces and choose from our different framing options to curate arrangements.</li>
+                  <li>Change wall color behind artwork with options of all shades, hues and brightness.</li>
+                  <li>Save spaces to your account to build on and edit in the future.</li>
+                </ul>
+                <span class="role-label">Role</span>
+                <p>Project lead and Responsible for creating room feature.</p>
+                <div class="store-links">
+                  <a href="https://apps.apple.com/us/app/jackson-fine-art/id1504111539" target="_blank" rel="noopener">
+                    <i class="fab fa-apple" aria-hidden="true"></i> App Store
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="video-wrap">
+                <iframe src="https://www.youtube.com/embed/h0M1v2YF4Zc" title="Sibros demo" loading="lazy" allowfullscreen></iframe>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="badge badge-react">React Native</span>
+                </div>
+                <h3>SIBROS</h3>
+                <p>
+                  Deliver full vehicle software updates with deep data collection and diagnostics from a one integrated platform, built for the future of automotive connectivity and design innovation.
+                </p>
+                <span class="role-label">Role</span>
+                <p>
+                  Working on Monorepo via which we share the components across the apps and web platform.
+                  So basically we use same component for different clients(different apps) by just changing the theme.
+                  Significant features bluetooth integration, music player integration, theming, monorepo architecture.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="video-wrap">
+                <iframe src="https://www.youtube.com/embed/CpTD7tWL548" title="Buildboard demo" loading="lazy" allowfullscreen></iframe>
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="badge badge-swift">Swift</span>
+                </div>
+                <h3>BUILDBOARD</h3>
+                <p>Buildboard works hard to simplify the home remodeling experience.</p>
+                <span class="role-label">Role</span>
+                <p>
+                  Project lead across platform web and mobile apps. Significant work is google vision algorithm,
+                  satellite measurement, ach and stripe integration, handling various push notification navigations.
+                </p>
+                <div class="store-links">
+                  <a href="https://apps.apple.com/us/app/buildboard-app/id1375237483" target="_blank" rel="noopener">
+                    <i class="fab fa-apple" aria-hidden="true"></i> App Store
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contributions" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow">Contributions</span>
+            <h2 class="section-title">Technical highlights</h2>
+            <p class="section-lead">Few notable tasks and responsibilities performed:</p>
+          </div>
+
+          <div class="contribution-grid reveal">
+            <article class="contribution-item"><p>Designed and owned end-to-end mobile release pipeline with Fastlane, App Store Connect API keys, Firebase App Distribution, and CodePush OTA.</p></article>
+            <article class="contribution-item"><p>Built App Center Server for automated white-label app provisioning across an enterprise multi-brand fleet.</p></article>
+            <article class="contribution-item"><p>Created Mobile Framework Upgrade Helper for fleet-wide SDK migrations with automated merge and PR workflows.</p></article>
+            <article class="contribution-item"><p>Established MobileWright E2E automation framework with shared testID contracts across @punchh packages.</p></article>
+            <article class="contribution-item"><p>Designed custom graph with bezier path on scroll view and also added scrolling and zooming functionality for the same.</p></article>
+            <article class="contribution-item"><p>Integrated PAX-900 device from company optomany in Swoopos app for POS system.</p></article>
+            <article class="contribution-item"><p>Worked on OpenCv to calculate measurement of object from the image.</p></article>
+            <article class="contribution-item"><p>Integrated Vision Algorithm to calculate measurement of object on the image.</p></article>
+            <article class="contribution-item"><p>Created a framework for SugarFunctions via COCOAPOD to use in our company for projects.</p></article>
+            <article class="contribution-item"><p>Create an Instabug-like framework for our company to report bugs on pivotal(using pivotal apis).</p></article>
+            <article class="contribution-item"><p>Integrated beacons to detect devices and for automatic check ins in restaurants.</p></article>
+            <article class="contribution-item">
+              <p>
+                Created Open source architecture for react native apps.
+                <a href="https://github.com/ankitjaiswal1994/RNArchitecture" target="_blank" rel="noopener">Open Link</a>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 Ankit Jaiswal. All rights reserved.</p>
+        <div class="footer-links">
+          <a class="icon-link" href="https://github.com/ankitjaiswal1994/" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a class="icon-link" href="https://www.linkedin.com/in/ankit-jaiswal-32939782/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a
+            class="btn btn-secondary"
+            href="assets/resume/Ankit_Jaiswal_Staff_Mobile_Engineer.pdf"
+            download
+          >
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/portfolio.js"></script>
   </body>
 </html>
