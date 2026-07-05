@@ -44,6 +44,15 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 
+  const cards = document.querySelectorAll(".card");
+  cards.forEach(function (card) {
+    card.addEventListener("pointermove", function (e) {
+      const rect = card.getBoundingClientRect();
+      card.style.setProperty("--mx", ((e.clientX - rect.left) / rect.width) * 100 + "%");
+      card.style.setProperty("--my", ((e.clientY - rect.top) / rect.height) * 100 + "%");
+    });
+  });
+
   const revealItems = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver(
